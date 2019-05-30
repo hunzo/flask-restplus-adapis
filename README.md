@@ -1,7 +1,11 @@
 "# flask-restplus-adapis" 
 ___
+Active Directory Rest APIs example Using
+- Flaks-Restplus
+- Flask-SQLAlchemy
+- Blueprint
 
-- initdb
+### initdb
 ``` python
 from initdb import db, BindUserTable
 
