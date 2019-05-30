@@ -15,7 +15,7 @@ CON = ApplicationDatabase()
 @apioperation_api.route('/binuserinfo')
 class GetBindUserInformation(Resource):
     @apioperation_api.doc(security='apikey')
-    # @token_required
+    @token_admin_required
     def get(self):
         """Get Bind User to Active Directory Informations
         """
@@ -32,7 +32,7 @@ class GetBindUserInformation(Resource):
 @apioperation_api.route('/getallbinduser')
 class GetALLBindUserInformation(Resource):
     @apioperation_api.doc(security='apikey')
-    # @token_required
+    @token_admin_required
     def get(self):
         """Get Bind User to Active Directory Informations
         """
