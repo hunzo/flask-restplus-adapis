@@ -1,4 +1,5 @@
 "# flask-restplus-adapis" 
+___
 
 - initdb
 ``` python
@@ -12,6 +13,3 @@ db.session.add(data)
 db.session.commit()
 
 ```
-___
-
-test
