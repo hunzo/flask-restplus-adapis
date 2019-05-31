@@ -17,3 +17,10 @@ db.session.add(data)
 db.session.commit()
 
 ```
+#RUN @windows
+``` 
+set FLASK_APP=visitorapis
+set FLASK_DEBUG=1
+flask run --host=0.0.0.0
+```
+
