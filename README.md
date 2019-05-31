@@ -1,7 +1,7 @@
 "# flask-restplus-adapis" 
 ___
 Active Directory Rest APIs example Using
-- Flaks-Restplus
+- Flask-Restplus
 - Flask-SQLAlchemy
 - Blueprint
 
