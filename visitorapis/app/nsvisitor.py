@@ -150,7 +150,7 @@ class CreateGroup(Resource):
     def post(self):
         """Create New Group 
         """
-        r = request.get_json('group')
+        r = request.get_json('groupname')
         r = request.get_json('description')
         r = request.get_json('groupbasedn')
         rs = Con.create_newgroup(
