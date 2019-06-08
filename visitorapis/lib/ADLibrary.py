@@ -315,7 +315,7 @@ class ActiveDirectoryMgmt:
             temp_group_dn = 'cn=' + NEW_GROUP + ',' + GROUP_BASE_DN
             print(temp_group_dn)
 
-            conn.add(temp_group_dn, 'group', {'description': DESCRIPTION})
+            conn.add(temp_group_dn, 'group', {'description': DESCRIPTION, 'sAMAccountName': NEW_GROUP})
 
             if conn.result['result'] != 0:
                 conn.unbind()
