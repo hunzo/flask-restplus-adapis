@@ -154,7 +154,7 @@ class CreateGroup(Resource):
         r = request.get_json('description')
         r = request.get_json('groupbasedn')
         rs = Con.create_newgroup(
-            r['group'], r['description'], r['groupbasedn'])
+            r['groupname'], r['description'], r['groupbasedn'])
 
         return jsonify({'result': rs})
 
