@@ -10,7 +10,7 @@ flask-sqlalchemy==2.4.0
 flask==1.0.3
 isort==4.3.20
 itsdangerous==1.1.0
-jinja2==2.10.1
+jinja2==2.11.3
 jsonschema==3.0.1
 lazy-object-proxy==1.4.1
 ldap3==2.6
